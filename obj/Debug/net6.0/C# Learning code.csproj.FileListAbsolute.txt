@@ -1,0 +1,15 @@
+D:\C# Learning code\bin\Debug\net6.0\C# Learning code.exe
+D:\C# Learning code\bin\Debug\net6.0\C# Learning code.deps.json
+D:\C# Learning code\bin\Debug\net6.0\C# Learning code.runtimeconfig.json
+D:\C# Learning code\bin\Debug\net6.0\C# Learning code.dll
+D:\C# Learning code\bin\Debug\net6.0\C# Learning code.pdb
+D:\C# Learning code\obj\Debug\net6.0\C# Learning code.csproj.AssemblyReference.cache
+D:\C# Learning code\obj\Debug\net6.0\C# Learning code.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Learning code\obj\Debug\net6.0\C# Learning code.AssemblyInfoInputs.cache
+D:\C# Learning code\obj\Debug\net6.0\C# Learning code.AssemblyInfo.cs
+D:\C# Learning code\obj\Debug\net6.0\C# Learning code.csproj.CoreCompileInputs.cache
+D:\C# Learning code\obj\Debug\net6.0\C# Learning code.dll
+D:\C# Learning code\obj\Debug\net6.0\refint\C# Learning code.dll
+D:\C# Learning code\obj\Debug\net6.0\C# Learning code.pdb
+D:\C# Learning code\obj\Debug\net6.0\C# Learning code.genruntimeconfig.cache
+D:\C# Learning code\obj\Debug\net6.0\ref\C# Learning code.dll
