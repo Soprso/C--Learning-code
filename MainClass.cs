@@ -5,4 +5,9 @@ Employee e= new Employee{
     LastName="Ghosh",
     Id=12
 };
-Console.WriteLine("Hello from "+e.FirstName+ " "+e.LastName + " "+ e.Id );
+Employee e1= new Employee{
+    FirstName="Madhumita",
+    LastName="Ghosh",
+    Id=13
+};
+Console.WriteLine("Hello from "+e1.FirstName+ " "+e1.LastName + " "+ e1.Id );
