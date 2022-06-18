@@ -70,8 +70,10 @@ public class Rectanglefeatures : Area
 
     public  override int PerimeterRectangle(int len, int brd)
     {
+        string quad;
         Console.WriteLine("Perimeter for rect or square");
-        string quad= Console.ReadLine();
+        quad= Console.ReadLine();
+        Console.WriteLine(quad);
         int perimeter=0;
         if(quad =="rect")
         {
