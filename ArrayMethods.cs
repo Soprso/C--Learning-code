@@ -47,3 +47,46 @@ public class Manager: Employee, IPerson
 }
 
 
+public abstract class Area
+{
+    public abstract int Areacalc(int len, int brd);
+
+    public virtual int PerimeterRectangle(int len, int brd)
+    {
+        int perimeter = 2 * (len+brd);
+        return perimeter;
+    }
+
+}
+
+public class Rectanglefeatures : Area
+{
+    public override int Areacalc(int len, int brd)
+    {
+        int area= len * brd;
+
+        return area;
+    }
+
+    public  override int PerimeterRectangle(int len, int brd)
+    {
+        Console.WriteLine("Perimeter for rect or square");
+        string quad= Console.ReadLine();
+        int perimeter=0;
+        if(quad =="rect")
+        {
+                perimeter = 2 * (len+brd);
+        }
+        if (quad == "square")
+        {
+             perimeter= 4 * len;
+        }
+        
+        else
+        {
+        Console.WriteLine("Please give valid input");
+        }
+        return perimeter;
+
+    }
+}

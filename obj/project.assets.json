@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\soumyadeep\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C# Learning code\\C# Learning code.csproj",
+      "projectUniqueName": "D:\\Git Hub Repository\\C--Learning-code\\C# Learning code.csproj",
       "projectName": "C# Learning code",
-      "projectPath": "D:\\C# Learning code\\C# Learning code.csproj",
-      "packagesPath": "C:\\Users\\soumyadeep\\.nuget\\packages\\",
-      "outputPath": "D:\\C# Learning code\\obj\\",
+      "projectPath": "D:\\Git Hub Repository\\C--Learning-code\\C# Learning code.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "D:\\Git Hub Repository\\C--Learning-code\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\soumyadeep\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
