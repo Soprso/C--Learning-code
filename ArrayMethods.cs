@@ -73,13 +73,13 @@ public class Rectanglefeatures : Area
         string quad;
         Console.WriteLine("Perimeter for rect or square");
         quad= Console.ReadLine();
-        Console.WriteLine(quad);
+        //Console.WriteLine(quad);
         int perimeter=0;
         if(quad =="rect")
         {
                 perimeter = 2 * (len+brd);
         }
-        if (quad == "square")
+        else if (quad == "square")
         {
              perimeter= 4 * len;
         }
