@@ -92,3 +92,21 @@ public class Rectanglefeatures : Area
 
     }
 }
+
+public class howmanydaysyouhavelived
+{
+    public int howmanydays()
+    {
+        Console.WriteLine ("Please enter your date of birth");
+        DateOnly dateofbirth= DateOnly.Parse( Console.ReadLine());
+        int days=0;
+        int months=0;
+        int years=0;
+        years= DateTime.Now.Year- dateofbirth.Year;
+        months= DateTime.Now.Month- dateofbirth.Month;
+        days= DateTime.Now.Day- dateofbirth.Day;
+
+        int totalDays= days+(30*months)+(365*years);
+        return totalDays;
+    }
+}

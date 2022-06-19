@@ -11,7 +11,10 @@ Employee e1= new Employee{
     Id=13
 };
 
-Rectanglefeatures rf= new Rectanglefeatures();
-Console.WriteLine(rf.Areacalc(12,13));
-Console.WriteLine(rf.PerimeterRectangle(12,13));
-Console.WriteLine (e1.FirstName+" is the spouse of "+ e.FirstName);
+howmanydaysyouhavelived hwd = new howmanydaysyouhavelived();
+int howmanydays = hwd.howmanydays();
+Console.WriteLine(howmanydays);
+// Rectanglefeatures rf= new Rectanglefeatures();
+// Console.WriteLine(rf.Areacalc(12,13));
+// Console.WriteLine(rf.PerimeterRectangle(12,13));
+// Console.WriteLine (e1.FirstName+" is the spouse of "+ e.FirstName);
