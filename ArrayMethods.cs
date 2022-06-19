@@ -130,9 +130,12 @@ public Tuple<int,int> countleapyears(DateOnly dateofbirth)
     
 }
 
-public int howmanyleapyearslived(DateOnly dateofbirth)
+public Tuple<int,int> howmanyleapyearslived(DateOnly dateofbirth)
 {
-    return countleapyears(dateofbirth).Item1;
+    // int leapyears = countleapyears(dateofbirth).Item1;
+    // int nonleapyears = countleapyears(dateofbirth).Item2;
+    return new Tuple<int,int>(countleapyears(dateofbirth).Item1,countleapyears(dateofbirth).Item2);
+
 }
     
 }
