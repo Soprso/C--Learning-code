@@ -15,7 +15,7 @@ howmanydaysyouhavelived hwd = new howmanydaysyouhavelived();
 Console.WriteLine ("Please enter your date of birth");
 DateOnly dob= DateOnly.Parse(Console.ReadLine());
 int howmanydays = hwd.howmanydays(dob);
-int howmanyleapyears = hwd.howmanyleapyearslived(dob).Item1;
+int howmanyleapyears = hwd.howmanyleapyearslived(dob).Item1;//hwd.howmanyleapyearslived(dob).Item1;
 int howmanynonleapyears= hwd.howmanyleapyearslived(dob).Item2;
 Console.WriteLine("How many days lived = {0}",howmanydays);
 Console.WriteLine("How many leap years lived = {0}", howmanyleapyears);
