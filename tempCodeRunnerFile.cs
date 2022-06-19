@@ -1,0 +1,1 @@
+DateOnly dob= DateOnly.Parse(Console.ReadLine());

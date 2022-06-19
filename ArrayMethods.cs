@@ -95,18 +95,44 @@ public class Rectanglefeatures : Area
 
 public class howmanydaysyouhavelived
 {
-    public int howmanydays()
+    public int howmanydays(DateOnly dob)
     {
-        Console.WriteLine ("Please enter your date of birth");
-        DateOnly dateofbirth= DateOnly.Parse( Console.ReadLine());
+        DateOnly dateofbirth= dob;
         int days=0;
         int months=0;
-        int years=0;
-        years= DateTime.Now.Year- dateofbirth.Year;
+        int leapyears=countleapyears(dateofbirth).Item1;
+        int nonleapyears=countleapyears(dateofbirth).Item2;
+        // years= DateTime.Now.Year- dateofbirth.Year;
         months= DateTime.Now.Month- dateofbirth.Month;
         days= DateTime.Now.Day- dateofbirth.Day;
 
-        int totalDays= days+(30*months)+(365*years);
+        int totalDays= days+(30*months)+(366*leapyears)+(365*nonleapyears);
         return totalDays;
     }
+public Tuple<int,int> countleapyears(DateOnly dateofbirth)
+{
+    int birthyear=dateofbirth.Year;
+    int numberofleapyears=0;
+    int nonleapyears=0;
+    while(birthyear <= DateTime.Now.Year)
+    {
+        if(birthyear%4==0)
+        {
+            numberofleapyears++;
+        }
+        else{
+            nonleapyears++;
+        }
+
+        birthyear++;
+    }
+    return new Tuple<int, int>(numberofleapyears, nonleapyears);
+    
+}
+
+public int howmanyleapyearslived(DateOnly dateofbirth)
+{
+    return countleapyears(dateofbirth).Item1;
+}
+    
 }
